@@ -1,0 +1,29 @@
+# Environment variables & secrets
+.env
+*.env
+
+# Local state & caches
+cache.json
+*.tmp
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Raw registration data with PII
+registrations.csv
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & OS files
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Streamlit local state
+.streamlit/secrets.toml
