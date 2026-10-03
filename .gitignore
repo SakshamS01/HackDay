@@ -3,7 +3,6 @@
 *.env
 
 # Local state & caches
-cache.json
 *.tmp
 __pycache__/
 *.py[cod]

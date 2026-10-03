@@ -1,6 +1,6 @@
+import re
 import time
 import logging
-
 import requests
 
 import config
@@ -14,6 +14,7 @@ log = logging.getLogger(__name__)
 
 
 def generate_summary(repo, title, body_snippet):
+    # 1. Try Local Ollama (Gemma 3)
     prompt = (
         "Summarize this GitHub pull request in one plain-English sentence "
         "for a non-technical audience.\n"
@@ -31,19 +32,43 @@ def generate_summary(repo, title, body_snippet):
         resp = requests.post(
             f"{config.OLLAMA_URL}/api/generate",
             json=payload,
-            timeout=120,
+            timeout=15,
         )
         if resp.status_code == 200:
             text = resp.json().get("response", "").strip()
             if text:
                 return text
-    except requests.RequestException as exc:
-        log.warning("Ollama request failed: %s", exc)
-    return None
+    except requests.RequestException:
+        pass
+
+    # 2. Try Google Gemini / Gemma Cloud API (if GEMINI_API_KEY provided in Streamlit secrets)
+    if config.GEMINI_API_KEY:
+        try:
+            url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={config.GEMINI_API_KEY}"
+            body = {
+                "contents": [{
+                    "parts": [{"text": prompt}]
+                }]
+            }
+            resp = requests.post(url, json=body, timeout=15)
+            if resp.status_code == 200:
+                candidates = resp.json().get("candidates", [])
+                if candidates:
+                    parts = candidates[0].get("content", {}).get("parts", [])
+                    if parts:
+                        return parts[0].get("text", "").strip()
+        except requests.RequestException:
+            pass
+
+    # 3. Clean rule-based fallback for cloud deployments without local Ollama
+    clean = re.sub(r"^(feat|fix|docs|style|refactor|test|chore|perf|build|ci)(\(.*\))?:\s*", "", title, flags=re.IGNORECASE).strip()
+    if clean:
+        return clean[0].upper() + clean[1:]
+    return title
 
 
 def run():
-    log.info("Summarizer started (model: %s)", config.OLLAMA_MODEL)
+    log.info("Summarizer started (model: %s, ollama: %s)", config.OLLAMA_MODEL, config.OLLAMA_URL)
 
     while True:
         cache = read_cache(config.CACHE_PATH)
@@ -69,8 +94,7 @@ def run():
                 pr_data.get("body_snippet", ""),
             )
             if summary is None:
-                summary = pr_data.get("title", "No summary available")
-                log.warning("Fallback to title for %s", pr_key)
+                summary = pr_data.get("title", "Community contribution")
 
             set_pr_summary(config.CACHE_PATH, pr_key, summary)
             log.info("Summarized: %s", summary[:80])

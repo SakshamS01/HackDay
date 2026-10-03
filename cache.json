@@ -1,0 +1,495 @@
+{
+  "last_updated": "2026-10-03T08:33:13.905502+00:00",
+  "participants": {
+    "algomasterarpit": {
+      "display_name": "Arpit Tyagi",
+      "last_fetched": "2026-10-03T08:33:01.158752+00:00"
+    },
+    "ze-creator": {
+      "display_name": "Zeba Fatma Khan",
+      "last_fetched": "2026-10-03T08:33:04.788304+00:00"
+    },
+    "nikhil3434": {
+      "display_name": "Nikhil Bopche",
+      "last_fetched": "2026-10-03T08:33:08.349326+00:00"
+    },
+    "vaishnavi22104": {
+      "display_name": "Vaishnavi Nandurkar",
+      "last_fetched": "2026-10-03T08:33:13.905502+00:00"
+    },
+    "atharva-werulkar": {
+      "display_name": "Atharva Werulkar",
+      "last_fetched": "2026-10-03T08:32:38.561727+00:00"
+    },
+    "nikemod1": {
+      "display_name": "Nikhil Motghare",
+      "last_fetched": "2026-10-03T08:32:42.090119+00:00"
+    },
+    "shivam102004": {
+      "display_name": "Shivam Saraf",
+      "last_fetched": "2026-10-03T08:32:45.684307+00:00"
+    },
+    "tushar-313": {
+      "display_name": "Tushar Agarwal",
+      "last_fetched": "2026-10-03T08:32:49.276781+00:00"
+    },
+    "aviral27": {
+      "display_name": "Aviral Joshi",
+      "last_fetched": "2026-10-03T08:32:52.775663+00:00"
+    },
+    "adiscripts03": {
+      "display_name": "Aditya Singh",
+      "last_fetched": "2026-10-03T08:32:56.359307+00:00"
+    },
+    "kalpak02": {
+      "display_name": "Kalpak Buradkar",
+      "last_fetched": "2026-10-03T08:32:59.924367+00:00"
+    },
+    "omkarkirpan": {
+      "display_name": "Onkar Kirpan",
+      "last_fetched": "2026-10-03T08:33:04.096305+00:00"
+    },
+    "darshanbagade": {
+      "display_name": "Darshan Bagade",
+      "last_fetched": "2026-10-03T08:33:07.729648+00:00"
+    },
+    "thunderboy159": {
+      "display_name": "Shantanu Duryodhan",
+      "last_fetched": "2026-10-03T08:33:11.238650+00:00"
+    },
+    "rounakkm": {
+      "display_name": "Rounak Mishra",
+      "last_fetched": "2026-10-03T08:29:11.664448+00:00"
+    },
+    "nishant-13006": {
+      "display_name": "Nishant Behera",
+      "last_fetched": "2026-10-03T08:29:15.435861+00:00"
+    },
+    "pranavxdragon": {
+      "display_name": "Pranav Navghare",
+      "last_fetched": "2026-10-03T08:29:19.025982+00:00"
+    },
+    "tejasnasre": {
+      "display_name": "Tejas Nasre",
+      "last_fetched": "2026-10-03T08:29:22.597542+00:00"
+    },
+    "adityalade22": {
+      "display_name": "Aditya Lade",
+      "last_fetched": "2026-10-03T08:29:26.212185+00:00"
+    },
+    "aditi-kadukar": {
+      "display_name": "Aditi Kadukar",
+      "last_fetched": "2026-10-03T08:29:29.777739+00:00"
+    },
+    "owaisxkhandev-web": {
+      "display_name": "Owais Khan",
+      "last_fetched": "2026-10-03T08:29:33.333771+00:00"
+    },
+    "affan190306": {
+      "display_name": "Mohammad Affan Khan",
+      "last_fetched": "2026-10-03T08:29:36.901634+00:00"
+    },
+    "hsay123": {
+      "display_name": "Yash Landge",
+      "last_fetched": "2026-10-03T08:29:40.397525+00:00"
+    },
+    "rnrahate": {
+      "display_name": "Aryan Rahate",
+      "last_fetched": "2026-10-03T08:29:43.929178+00:00"
+    },
+    "thesanesahil-boop": {
+      "display_name": "Sahil Khan",
+      "last_fetched": "2026-10-03T08:29:47.537674+00:00"
+    },
+    "samyak2468p": {
+      "display_name": "Samyak borkar",
+      "last_fetched": "2026-10-03T08:29:51.021354+00:00"
+    },
+    "roshanchoudhry417-byte": {
+      "display_name": "Roshan Chaudhari",
+      "last_fetched": "2026-10-03T08:29:54.562213+00:00"
+    },
+    "anam-siddiqui01": {
+      "display_name": "Anam Kausar Siddiqui",
+      "last_fetched": "2026-10-03T08:29:58.073043+00:00"
+    },
+    "tishasureka": {
+      "display_name": "Tisha Sureka",
+      "last_fetched": "2026-10-03T08:30:01.778989+00:00"
+    },
+    "shreyashio": {
+      "display_name": "Shreyash Raut",
+      "last_fetched": "2026-10-03T08:30:05.506266+00:00"
+    },
+    "gunika1245": {
+      "display_name": "Gunika Bhutani",
+      "last_fetched": "2026-10-03T08:30:09.416673+00:00"
+    },
+    "theamangupta15-debug": {
+      "display_name": "Aman Gupta",
+      "last_fetched": "2026-10-03T08:30:13.831056+00:00"
+    },
+    "srushti-kamble14": {
+      "display_name": "Srushti Kamble",
+      "last_fetched": "2026-10-03T08:30:17.382142+00:00"
+    },
+    "ompatil0": {
+      "display_name": "Om Patil",
+      "last_fetched": "2026-10-03T08:30:20.882033+00:00"
+    },
+    "lahasedarshan-01": {
+      "display_name": "Darshan Lahase",
+      "last_fetched": "2026-10-03T08:30:24.509948+00:00"
+    },
+    "vaishnavi473": {
+      "display_name": "Vaishnavi Chaudhari",
+      "last_fetched": "2026-10-03T08:30:28.066575+00:00"
+    },
+    "abhishekp0106": {
+      "display_name": "Abhishek Purohit",
+      "last_fetched": "2026-10-03T08:30:31.681471+00:00"
+    },
+    "rudrakathoke2006": {
+      "display_name": "RUDRA KATHOKE",
+      "last_fetched": "2026-10-03T08:30:35.220907+00:00"
+    },
+    "gitsam74": {
+      "display_name": "Samruddhi Sawarkar",
+      "last_fetched": "2026-10-03T08:30:38.768365+00:00"
+    },
+    "aryan-lade": {
+      "display_name": "Aryan Lade",
+      "last_fetched": "2026-10-03T08:30:42.301173+00:00"
+    },
+    "sayyadrehan09": {
+      "display_name": "Sayyad Rehan",
+      "last_fetched": "2026-10-03T08:30:45.913106+00:00"
+    },
+    "aryan-vijaykar": {
+      "display_name": "Aryan Vijaykar",
+      "last_fetched": "2026-10-03T08:30:49.465126+00:00"
+    },
+    "gunjan-ghangare": {
+      "display_name": "Gunjan Ghangare",
+      "last_fetched": "2026-10-03T08:30:52.987687+00:00"
+    },
+    "chetna-sakarde": {
+      "display_name": "Chetna Sakarde",
+      "last_fetched": "2026-10-03T08:30:56.575715+00:00"
+    },
+    "purvam10": {
+      "display_name": "Purva Mohature",
+      "last_fetched": "2026-10-03T08:31:00.102024+00:00"
+    },
+    "premshreegathe-sudo": {
+      "display_name": "premshree gathe",
+      "last_fetched": "2026-10-03T08:31:04.419742+00:00"
+    },
+    "bhave5h": {
+      "display_name": "Bhavesh Chawre",
+      "last_fetched": "2026-10-03T08:31:07.934699+00:00"
+    },
+    "devansh-235": {
+      "display_name": "Devansh Burhade",
+      "last_fetched": "2026-10-03T08:31:11.499463+00:00"
+    },
+    "kartikraut09": {
+      "display_name": "Kartik Raut",
+      "last_fetched": "2026-10-03T08:31:15.024979+00:00"
+    },
+    "sayaliii12": {
+      "display_name": "Sayali Pohankar",
+      "last_fetched": "2026-10-03T08:31:19.331906+00:00"
+    },
+    "damnyatin": {
+      "display_name": "Yatin Mishra",
+      "last_fetched": "2026-10-03T08:31:22.882174+00:00"
+    },
+    "sneha798": {
+      "display_name": "Sneha Agrawal",
+      "last_fetched": "2026-10-03T08:31:26.394825+00:00"
+    },
+    "abhinav-ak22": {
+      "display_name": "Abhinav khadilkar",
+      "last_fetched": "2026-10-03T08:31:29.990211+00:00"
+    },
+    "princybharani": {
+      "display_name": "Princy Bharani",
+      "last_fetched": "2026-10-03T08:31:33.561345+00:00"
+    },
+    "ruturajbhargade2011-oss": {
+      "display_name": "Ruturaj Bhargade",
+      "last_fetched": "2026-10-03T08:31:37.079363+00:00"
+    },
+    "aaditya100k": {
+      "display_name": "Aaditya Chormage",
+      "last_fetched": "2026-10-03T08:31:40.678230+00:00"
+    },
+    "azim2803": {
+      "display_name": "Azimuddin Quazi",
+      "last_fetched": "2026-10-03T08:31:44.202588+00:00"
+    },
+    "ramtekeaish26-web": {
+      "display_name": "Aishwarya Ramteke",
+      "last_fetched": "2026-10-03T08:31:47.822381+00:00"
+    },
+    "sankalpgaidhane77-star": {
+      "display_name": "Sankalp Gaidhane",
+      "last_fetched": "2026-10-03T08:31:51.339293+00:00"
+    },
+    "glider-vinnie": {
+      "display_name": "Vaishnavi Nandurkar",
+      "last_fetched": "2026-10-03T08:31:54.897727+00:00"
+    },
+    "ramtekeridima834-cmyk": {
+      "display_name": "Ridhima Ramteke",
+      "last_fetched": "2026-10-03T08:31:58.458110+00:00"
+    },
+    "velvet-007": {
+      "display_name": "Bhoomika Girish",
+      "last_fetched": "2026-10-03T08:32:02.108608+00:00"
+    },
+    "devanshpaltewar30": {
+      "display_name": "Devansh Paltewar",
+      "last_fetched": "2026-10-03T08:32:05.708647+00:00"
+    },
+    "omsherekar17-gif": {
+      "display_name": "Om Sherekar",
+      "last_fetched": "2026-10-03T08:32:09.219413+00:00"
+    },
+    "divyamishra123786-glitch": {
+      "display_name": "Divya Mishra",
+      "last_fetched": "2026-10-03T08:32:12.895094+00:00"
+    },
+    "sagarkharbikar25": {
+      "display_name": "Sagar Kharbikar",
+      "last_fetched": "2026-10-03T08:32:16.462451+00:00"
+    },
+    "rushikeshbobde-glitch": {
+      "display_name": "Rushikesh Bobde",
+      "last_fetched": "2026-10-03T08:32:21.743394+00:00"
+    },
+    "deven-syndicate": {
+      "display_name": "Deepesh Gupta",
+      "last_fetched": "2026-10-03T08:32:25.332636+00:00"
+    },
+    "soukatdas05": {
+      "display_name": "Soukat Das",
+      "last_fetched": "2026-10-03T08:32:28.826892+00:00"
+    },
+    "himanshurane": {
+      "display_name": "Himanshu Rane",
+      "last_fetched": "2026-10-03T08:32:32.414592+00:00"
+    },
+    "hridhyaraghav": {
+      "display_name": "Hridhya Raghav",
+      "last_fetched": "2026-10-03T08:32:35.951546+00:00"
+    },
+    "kartik-bissa": {
+      "display_name": "Kartik Bissa",
+      "last_fetched": "2026-10-03T08:32:39.578900+00:00"
+    },
+    "kotewar": {
+      "display_name": "Sankalp Kotewar",
+      "last_fetched": "2026-10-03T08:32:43.206062+00:00"
+    },
+    "theayanshiekh": {
+      "display_name": "Ayan Sheikh",
+      "last_fetched": "2026-10-03T08:32:46.724210+00:00"
+    },
+    "anshkumar-pandey": {
+      "display_name": "Anshkumar Pandey",
+      "last_fetched": "2026-10-03T08:32:50.328871+00:00"
+    },
+    "varadisthedev": {
+      "display_name": "Varad Raut",
+      "last_fetched": "2026-10-03T08:32:53.995312+00:00"
+    },
+    "sanikaraut248-dotcom": {
+      "display_name": "Sanika Raut",
+      "last_fetched": "2026-10-03T08:32:57.537871+00:00"
+    }
+  },
+  "pull_requests": {
+    "Vaishnavi22104/AlgoWise/5": {
+      "github_username": "vaishnavi22104",
+      "repo": "Vaishnavi22104/AlgoWise",
+      "pr_number": 5,
+      "title": "ui: refine contribution page",
+      "body_snippet": "## What does this PR do?\r\n\r\n## Type of change\r\n\r\n- [ ] New algorithm\r\n- [ ] New problem visualization\r\n- [ ] Bug fix\r\n- [ ] UI/UX\r\n- [ ] Documentation\r\n- [ ] Accessibility\r\n- [ ] Performance\r\n\r\n## Checklist\r\n\r\n- [ ] Follows existing architecture\r\n- [ ] Uses existing design tokens\r\n- [ ] Added tests\r\n- [ ] Tested visualization\r\n- [ ] Updated documentation\r\n- [ ] No unnecessary dependencies\r\n",
+      "url": "https://github.com/Vaishnavi22104/AlgoWise/pull/5",
+      "state": "merged",
+      "is_merged": true,
+      "created_at": "2026-10-03T00:21:22Z",
+      "merged_at": "2026-10-03T00:23:24Z",
+      "closed_at": "2026-10-03T00:23:24Z",
+      "labels": [],
+      "hacktoberfest_accepted": false,
+      "repo_has_hacktoberfest_topic": true,
+      "summary": "This pull request makes improvements to the website’s page where users can submit their solutions to coding challenges.",
+      "fetched_at": "2026-10-03T08:33:12.676633+00:00"
+    },
+    "Vaishnavi22104/AlgoWise/4": {
+      "github_username": "vaishnavi22104",
+      "repo": "Vaishnavi22104/AlgoWise",
+      "pr_number": 4,
+      "title": "docs: improve contributor notes",
+      "body_snippet": "## Work in progress\n\nThis PR is a small documentation improvement intended to make the contributor workflow easier to understand.",
+      "url": "https://github.com/Vaishnavi22104/AlgoWise/pull/4",
+      "state": "merged",
+      "is_merged": true,
+      "created_at": "2026-10-02T15:10:55Z",
+      "merged_at": "2026-10-03T07:37:38Z",
+      "closed_at": "2026-10-03T07:37:38Z",
+      "labels": [],
+      "hacktoberfest_accepted": false,
+      "repo_has_hacktoberfest_topic": true,
+      "summary": "This update clarifies how people can help improve the project's documentation.",
+      "fetched_at": "2026-10-03T08:33:13.292165+00:00"
+    },
+    "Vaishnavi22104/AlgoWise/3": {
+      "github_username": "vaishnavi22104",
+      "repo": "Vaishnavi22104/AlgoWise",
+      "pr_number": 3,
+      "title": "docs: improve AlgoWise project overview",
+      "body_snippet": "## What changed\nImproved the project overview documentation.\n\n## Why\nMakes the purpose and architecture of AlgoWise easier for new contributors to understand.",
+      "url": "https://github.com/Vaishnavi22104/AlgoWise/pull/3",
+      "state": "merged",
+      "is_merged": true,
+      "created_at": "2026-10-02T15:10:39Z",
+      "merged_at": "2026-10-02T15:46:08Z",
+      "closed_at": "2026-10-02T15:46:08Z",
+      "labels": [],
+      "hacktoberfest_accepted": false,
+      "repo_has_hacktoberfest_topic": true,
+      "summary": "The project's documentation has been updated to clearly explain what AlgoWise is and how it works, making it simpler for new people to get involved.",
+      "fetched_at": "2026-10-03T08:33:13.875539+00:00"
+    },
+    "Vaishnavi22104/AlgoWise/2": {
+      "github_username": "vaishnavi22104",
+      "repo": "Vaishnavi22104/AlgoWise",
+      "pr_number": 2,
+      "title": "docs: improve contribution guide",
+      "body_snippet": "## What changed\nImproved the contribution instructions to make the first contribution easier for beginners.\n\n## Why\nHelps new contributors understand how they can contribute to AlgoWise.\n\n## Related Issue\nCloses #1",
+      "url": "https://github.com/Vaishnavi22104/AlgoWise/pull/2",
+      "state": "open",
+      "is_merged": false,
+      "created_at": "2026-10-02T15:10:23Z",
+      "merged_at": null,
+      "closed_at": null,
+      "labels": [],
+      "hacktoberfest_accepted": false,
+      "repo_has_hacktoberfest_topic": true,
+      "summary": "The project's instructions for new contributors have been updated to make it easier for beginners to get involved.",
+      "fetched_at": "2026-10-03T08:33:13.875539+00:00"
+    },
+    "OmkarKirpan/groundcheck/1": {
+      "github_username": "omkarkirpan",
+      "repo": "OmkarKirpan/groundcheck",
+      "pr_number": 1,
+      "title": "agent-v2: refuse when quotes only answer a related question (gate rejects it)",
+      "body_snippet": "An experiment, opened to show the gate working on a real agent change. **Not meant to merge.**\n\n## The change\nOne generic prompt rule (`agent-v2`): *\"Before you answer, check that your quotes answer the exact question that was asked, not a similar one. If they only answer a related question, refuse.\"* It targets c030, where the agent answers a sick-leave question with the annual-leave policy. No example from the test set is in the prompt.\n\n## What the recorded run shows (`results/2026-10-01T07-1",
+      "url": "https://github.com/OmkarKirpan/groundcheck/pull/1",
+      "state": "open",
+      "is_merged": false,
+      "created_at": "2026-10-01T07:21:20Z",
+      "merged_at": null,
+      "closed_at": null,
+      "labels": [],
+      "hacktoberfest_accepted": false,
+      "repo_has_hacktoberfest_topic": false,
+      "summary": "This update prevents the agent from answering questions that are only tangentially related to the original inquiry, ensuring it focuses on directly addressing the specific question asked.",
+      "fetched_at": "2026-10-03T08:33:04.057281+00:00"
+    },
+    "theamangupta15-debug/project2/1": {
+      "github_username": "theamangupta15-debug",
+      "repo": "theamangupta15-debug/project2",
+      "pr_number": 1,
+      "title": "branch check",
+      "body_snippet": "added new paragraph in html",
+      "url": "https://github.com/theamangupta15-debug/project2/pull/1",
+      "state": "merged",
+      "is_merged": true,
+      "created_at": "2026-10-02T00:02:10Z",
+      "merged_at": "2026-10-02T00:06:16Z",
+      "closed_at": "2026-10-02T00:06:16Z",
+      "labels": [],
+      "hacktoberfest_accepted": false,
+      "repo_has_hacktoberfest_topic": false,
+      "summary": "This update added a new paragraph to the website's text.",
+      "fetched_at": "2026-10-03T08:30:13.782159+00:00"
+    },
+    "sayyadrehan09/MHL-Hackoberfest/1": {
+      "github_username": "sayaliii12",
+      "repo": "sayyadrehan09/MHL-Hackoberfest",
+      "pr_number": 1,
+      "title": "Revise README for improved project description",
+      "body_snippet": "Updated the README to enhance clarity and detail about MediSlot AI's features and functionalities.",
+      "url": "https://github.com/sayyadrehan09/MHL-Hackoberfest/pull/1",
+      "state": "merged",
+      "is_merged": true,
+      "created_at": "2026-10-03T08:10:44Z",
+      "merged_at": "2026-10-03T08:12:32Z",
+      "closed_at": "2026-10-03T08:12:32Z",
+      "labels": [],
+      "hacktoberfest_accepted": false,
+      "repo_has_hacktoberfest_topic": false,
+      "summary": "The project's introductory document (README) has been rewritten to better explain what MediSlot AI does and how it works.",
+      "fetched_at": "2026-10-03T08:31:19.297886+00:00"
+    },
+    "rushikeshbobde-glitch/Fixora-AI-Fnl/2": {
+      "github_username": "rushikeshbobde-glitch",
+      "repo": "rushikeshbobde-glitch/Fixora-AI-Fnl",
+      "pr_number": 2,
+      "title": "Feature/fixora ai it service desk",
+      "body_snippet": "",
+      "url": "https://github.com/rushikeshbobde-glitch/Fixora-AI-Fnl/pull/2",
+      "state": "merged",
+      "is_merged": true,
+      "created_at": "2026-10-01T09:14:46Z",
+      "merged_at": "2026-10-01T09:14:59Z",
+      "closed_at": "2026-10-01T09:14:59Z",
+      "labels": [],
+      "hacktoberfest_accepted": false,
+      "repo_has_hacktoberfest_topic": false,
+      "summary": "This update improves the Fixora AI service desk by addressing technical issues and adding new features to better support users.",
+      "fetched_at": "2026-10-03T08:32:20.944294+00:00"
+    },
+    "rushikeshbobde-glitch/Fixora-AI-Fnl/1": {
+      "github_username": "rushikeshbobde-glitch",
+      "repo": "rushikeshbobde-glitch/Fixora-AI-Fnl",
+      "pr_number": 1,
+      "title": "Feature/fixora ai it service desk",
+      "body_snippet": "",
+      "url": "https://github.com/rushikeshbobde-glitch/Fixora-AI-Fnl/pull/1",
+      "state": "merged",
+      "is_merged": true,
+      "created_at": "2026-10-01T08:45:50Z",
+      "merged_at": "2026-10-01T08:46:02Z",
+      "closed_at": "2026-10-01T08:46:02Z",
+      "labels": [],
+      "hacktoberfest_accepted": false,
+      "repo_has_hacktoberfest_topic": false,
+      "summary": "This update improves the Fixora AI service desk by addressing technical issues and adding new features to ensure it works smoothly.",
+      "fetched_at": "2026-10-03T08:32:21.689153+00:00"
+    },
+    "Nishant-13006/code_breaker/1": {
+      "github_username": "premshreegathe-sudo",
+      "repo": "Nishant-13006/code_breaker",
+      "pr_number": 1,
+      "title": "Update README.md ",
+      "body_snippet": "",
+      "url": "https://github.com/Nishant-13006/code_breaker/pull/1",
+      "state": "merged",
+      "is_merged": true,
+      "created_at": "2026-10-03T08:24:27Z",
+      "merged_at": "2026-10-03T08:24:52Z",
+      "closed_at": "2026-10-03T08:24:52Z",
+      "labels": [],
+      "hacktoberfest_accepted": false,
+      "repo_has_hacktoberfest_topic": false,
+      "summary": "The README file explaining how to play the Codebreaker game has been updated with clearer instructions.",
+      "fetched_at": "2026-10-03T08:31:04.389861+00:00"
+    }
+  }
+}

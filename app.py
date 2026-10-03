@@ -2,6 +2,7 @@ import html
 import time
 import streamlit as st
 
+import config
 from cache_manager import read_cache
 
 # Must be the very first Streamlit command
@@ -12,7 +13,7 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
-REFRESH_SECONDS = 15
+REFRESH_SECONDS = config.REFRESH_SECONDS
 
 # Custom Google Material Design styles matching https://gdg.community.dev/gdg-cloud-nagpur/
 st.markdown("""
@@ -551,9 +552,17 @@ footer {visibility: hidden;}
 
 
 def load_data():
+    from participants import load_participants
+    participants = load_participants("participants.csv")
+    
     cache = read_cache("cache.json")
-    prs = list(cache.get("pull_requests", {}).values())
-    participants = cache.get("participants", {})
+    raw_prs = list(cache.get("pull_requests", {}).values())
+    
+    # Strictly allow ONLY PRs authored by participants in participants.csv
+    prs = [
+        p for p in raw_prs
+        if p.get("github_username", "").lower() in participants
+    ]
     return prs, participants
 
 
@@ -570,16 +579,13 @@ def compute_metrics(prs, participants):
 
 def build_leaderboard(prs, participants):
     stats = {}
-    # Seed with all registered participants so everyone shows on the community leaderboard
-    for user, info in participants.items():
-        stats[user] = {"merged": 0, "open": 0, "total": 0}
+    for user in participants:
+        stats[user.lower()] = {"merged": 0, "open": 0, "total": 0}
 
     for pr in prs:
         user = pr.get("github_username", "").lower()
-        if not user:
-            continue
         if user not in stats:
-            stats[user] = {"merged": 0, "open": 0, "total": 0}
+            continue
         stats[user]["total"] += 1
         if pr.get("is_merged"):
             stats[user]["merged"] += 1
@@ -594,8 +600,8 @@ def build_leaderboard(prs, participants):
 
     display_rows = []
     for i, (user, counts) in enumerate(ranked, 1):
-        disp = participants.get(user, {})
-        display_name = disp.get("display_name", user) if isinstance(disp, dict) else user
+        disp = participants.get(user, user)
+        display_name = disp.get("display_name", user) if isinstance(disp, dict) else str(disp)
         display_rows.append({
             "rank": i,
             "username": user,
@@ -938,8 +944,39 @@ def check_celebration(merged_count):
     st.session_state.prev_merged = merged_count
 
 
+@st.cache_resource
+def init_background_workers():
+    """Start background fetcher and summarizer threads automatically (for Streamlit Cloud & local)."""
+    import threading
+
+    if config.GITHUB_TOKEN:
+        try:
+            import fetcher
+            t1 = threading.Thread(target=fetcher.run, daemon=True, name="FetcherDaemon")
+            t1.start()
+        except Exception as e:
+            print("Notice: background fetcher thread:", e)
+
+        try:
+            import summarizer
+            t2 = threading.Thread(target=summarizer.run, daemon=True, name="SummarizerDaemon")
+            t2.start()
+        except Exception as e:
+            print("Notice: background summarizer thread:", e)
+    return True
+
+
 def main():
+    init_background_workers()
+
     render_navbar()
+
+    if not config.GITHUB_TOKEN:
+        st.warning(
+            "🔑 **GitHub Token Missing**: Please add `GITHUB_TOKEN` to your Streamlit Cloud Secrets "
+            "(in App Settings -> Secrets) or `.env` file to enable live polling."
+        )
+
     render_hero()
 
     prs, participants = load_data()
