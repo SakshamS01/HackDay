@@ -31,7 +31,7 @@ The **GDG Cloud Nagpur Live Dashboard** bridges the gap:
 - A local **Google Gemma 3:4b LLM** inspects the diff and title to produce a 1-line, plain-English summary:  
   *👉 "Added responsive mobile navigation controls for the event registration portal."*
 - The projector dashboard streams contributions live, updates leaderboards, and fires celebratory balloon effects as soon as a PR merges!
-
+- Deployed link: https://pullcast.streamlit.app/
 ---
 
 ## ✨ Key Features
