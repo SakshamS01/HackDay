@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-03T08:33:46.831532+00:00",
+  "last_updated": "2026-10-03T08:35:38.281813+00:00",
   "participants": {
     "algomasterarpit": {
       "display_name": "Arpit Tyagi",
@@ -95,19 +95,19 @@
     },
     "rnrahate": {
       "display_name": "Aryan Rahate",
-      "last_fetched": "2026-10-03T08:33:46.831532+00:00"
+      "last_fetched": "2026-10-03T08:34:37.314054+00:00"
     },
     "thesanesahil-boop": {
       "display_name": "Sahil Khan",
-      "last_fetched": "2026-10-03T08:29:47.537674+00:00"
+      "last_fetched": "2026-10-03T08:34:40.849596+00:00"
     },
     "samyak2468p": {
       "display_name": "Samyak borkar",
-      "last_fetched": "2026-10-03T08:29:51.021354+00:00"
+      "last_fetched": "2026-10-03T08:34:44.423514+00:00"
     },
     "roshanchoudhry417-byte": {
       "display_name": "Roshan Chaudhari",
-      "last_fetched": "2026-10-03T08:29:54.562213+00:00"
+      "last_fetched": "2026-10-03T08:34:48.008147+00:00"
     },
     "anam-siddiqui01": {
       "display_name": "Anam Kausar Siddiqui",
@@ -139,63 +139,63 @@
     },
     "lahasedarshan-01": {
       "display_name": "Darshan Lahase",
-      "last_fetched": "2026-10-03T08:30:24.509948+00:00"
+      "last_fetched": "2026-10-03T08:34:39.300639+00:00"
     },
     "vaishnavi473": {
       "display_name": "Vaishnavi Chaudhari",
-      "last_fetched": "2026-10-03T08:30:28.066575+00:00"
+      "last_fetched": "2026-10-03T08:34:43.300646+00:00"
     },
     "abhishekp0106": {
       "display_name": "Abhishek Purohit",
-      "last_fetched": "2026-10-03T08:30:31.681471+00:00"
+      "last_fetched": "2026-10-03T08:34:46.821742+00:00"
     },
     "rudrakathoke2006": {
       "display_name": "RUDRA KATHOKE",
-      "last_fetched": "2026-10-03T08:30:35.220907+00:00"
+      "last_fetched": "2026-10-03T08:34:50.436519+00:00"
     },
     "gitsam74": {
       "display_name": "Samruddhi Sawarkar",
-      "last_fetched": "2026-10-03T08:30:38.768365+00:00"
+      "last_fetched": "2026-10-03T08:34:53.953294+00:00"
     },
     "aryan-lade": {
       "display_name": "Aryan Lade",
-      "last_fetched": "2026-10-03T08:30:42.301173+00:00"
+      "last_fetched": "2026-10-03T08:35:03.449526+00:00"
     },
     "sayyadrehan09": {
       "display_name": "Sayyad Rehan",
-      "last_fetched": "2026-10-03T08:30:45.913106+00:00"
+      "last_fetched": "2026-10-03T08:35:07.063762+00:00"
     },
     "aryan-vijaykar": {
       "display_name": "Aryan Vijaykar",
-      "last_fetched": "2026-10-03T08:30:49.465126+00:00"
+      "last_fetched": "2026-10-03T08:35:10.783061+00:00"
     },
     "gunjan-ghangare": {
       "display_name": "Gunjan Ghangare",
-      "last_fetched": "2026-10-03T08:30:52.987687+00:00"
+      "last_fetched": "2026-10-03T08:35:14.536897+00:00"
     },
     "chetna-sakarde": {
       "display_name": "Chetna Sakarde",
-      "last_fetched": "2026-10-03T08:30:56.575715+00:00"
+      "last_fetched": "2026-10-03T08:35:18.647779+00:00"
     },
     "purvam10": {
       "display_name": "Purva Mohature",
-      "last_fetched": "2026-10-03T08:31:00.102024+00:00"
+      "last_fetched": "2026-10-03T08:35:22.378879+00:00"
     },
     "premshreegathe-sudo": {
       "display_name": "premshree gathe",
-      "last_fetched": "2026-10-03T08:31:04.419742+00:00"
+      "last_fetched": "2026-10-03T08:35:27.374965+00:00"
     },
     "bhave5h": {
       "display_name": "Bhavesh Chawre",
-      "last_fetched": "2026-10-03T08:31:07.934699+00:00"
+      "last_fetched": "2026-10-03T08:35:30.894033+00:00"
     },
     "devansh-235": {
       "display_name": "Devansh Burhade",
-      "last_fetched": "2026-10-03T08:31:11.499463+00:00"
+      "last_fetched": "2026-10-03T08:35:34.521344+00:00"
     },
     "kartikraut09": {
       "display_name": "Kartik Raut",
-      "last_fetched": "2026-10-03T08:31:15.024979+00:00"
+      "last_fetched": "2026-10-03T08:35:38.281813+00:00"
     },
     "sayaliii12": {
       "display_name": "Sayali Pohankar",
@@ -489,7 +489,7 @@
       "hacktoberfest_accepted": false,
       "repo_has_hacktoberfest_topic": false,
       "summary": "The README file explaining how to play the Codebreaker game has been updated with clearer instructions.",
-      "fetched_at": "2026-10-03T08:31:04.389861+00:00"
+      "fetched_at": "2026-10-03T08:35:27.341845+00:00"
     }
   }
 }
